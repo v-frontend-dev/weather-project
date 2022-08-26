@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+   font-size: 1.3rem;
+   font-family: 'Lato', sans-serif;
+   background-image: url(../nature.jpg);
+   background-position: 40%;
+   line-height: 1.5;
+ 
+}
+.box{
+    width: 100%;
+    max-width:350px;
+    border-radius: 30px;
+    background-color:#000000d0;
+    padding:2em;
+    margin: 1em em;
+    color: white;justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+
+}
+
+.searchbar{
+    border-radius: 23px;
+    padding: 0.5em 1em;
+    font-size: 70%;
+    outline: none;
+   
+   
+}
+.btn{
+   
+    margin: 0 25px;
+    width:40px;
+    padding: 0.3em 0.3em;
+}
+.city{
+    padding: 5px;
+}
+
+h1.temp{
+    margin: 0px;
+    margin-bottom: 0.4em;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.description{
+    text-transform: capitalize;
+  //  margin-left: 8px;
+}
+@media only screen and (max-width:375px){
+    .searchbar{
+        max-width: 100%;
+        width: 191px;
+    }
+    .city{
+        font-size: 1.2em;
+    }
+   
+    .box{
+        max-width: 100%;
+        width: 410px;
+        margin: 1.4em ;
+       
+    }
+    body{
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+   
+
+}
